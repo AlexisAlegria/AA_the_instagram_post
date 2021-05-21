@@ -1,0 +1,77 @@
+body{
+    background: black; font-family:  'DM Sans', sans-serif;
+}
+
+.mainBox{background:white; width: 27%;height: 520px;margin:auto;
+    position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+    padding: 0px;}
+
+.headerBox{
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    background: white;
+}
+
+.htmlSymbol{
+    font-size: 22px;
+    margin: 10px;
+    background: white;
+}
+
+.text{
+    margin-top: 10px;
+}
+.text, li{
+    font-size: 12px;
+    list-style: none;
+    background: white;
+}
+.threedots{
+    font-size: 25px;
+    margin-top: 8px;
+    position: absolute;
+    right: 10px;
+    background: white;
+}
+
+
+.imgBox{
+    height: 280px;
+    background: grey;
+}
+
+img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.iconsBox{
+    display: inline-flex;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    background: white;
+}
+
+.icon-chat,
+.icon-paperplane{
+    padding-left: 5px;
+}
+
+.icon-bookmark{
+    position: absolute;
+    right: 18px;
+}
+
+.textBox{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 11px;
+    position: absolute;
+    bottom: 25px;
+    background: white;
+}
